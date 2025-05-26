@@ -167,7 +167,7 @@ window.addEventListener('load', () => {
                 
                 try {
                     // Use your backend server instead of direct API call
-                    const response = await fetch(`http://localhost:5000/api/weather/location?lat=${lat}&lon=${lon}`);
+                    const response = await fetch(`https://weather-app-1-zxp7.onrender.com/api/weather/location?lat=${lat}&lon=${lon}`);
                     const data = await response.json();
                     
                     if (response.ok) {
