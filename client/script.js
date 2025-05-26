@@ -1,4 +1,5 @@
-const apiUrl = "http://localhost:5000/api/weather?city=";
+const apiUrl = "https://weather-app-1-zxp7.onrender.com/api/weather?city=";
+
 
 const searchBox = document.querySelector(".search input");
 const searchBtn = document.querySelector(".search button");
